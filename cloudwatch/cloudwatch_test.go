@@ -1,11 +1,12 @@
 package cloudwatch_test
 
 import (
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/cloudwatch"
-	"github.com/crowdmob/goamz/testutil"
-	"gopkg.in/check.v1"
 	"testing"
+
+	"github.com/robsgreen/goamz/aws"
+	"github.com/robsgreen/goamz/cloudwatch"
+	"github.com/robsgreen/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 func Test(t *testing.T) {

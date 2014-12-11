@@ -1,9 +1,10 @@
 package autoscaling
 
 import (
-	"github.com/crowdmob/goamz/autoscaling/astest"
-	"github.com/crowdmob/goamz/aws"
 	"testing"
+
+	"github.com/robsgreen/goamz/autoscaling/astest"
+	"github.com/robsgreen/goamz/aws"
 )
 
 var testServer = astest.NewHTTPServer()

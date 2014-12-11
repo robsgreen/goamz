@@ -1,10 +1,11 @@
 package elb_test
 
 import (
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/elb"
-	"gopkg.in/check.v1"
 	"time"
+
+	"github.com/robsgreen/goamz/aws"
+	"github.com/robsgreen/goamz/elb"
+	"gopkg.in/check.v1"
 )
 
 type S struct {

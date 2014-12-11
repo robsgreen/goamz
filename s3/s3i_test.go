@@ -4,16 +4,17 @@ import (
 	"bytes"
 	"crypto/md5"
 	"fmt"
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/s3"
-	"github.com/crowdmob/goamz/testutil"
-	"gopkg.in/check.v1"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/robsgreen/goamz/aws"
+	"github.com/robsgreen/goamz/s3"
+	"github.com/robsgreen/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 // AmazonServer represents an Amazon S3 server.

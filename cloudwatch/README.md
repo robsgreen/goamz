@@ -30,8 +30,8 @@ import (
     "fmt"
     "time"
     "os"
-    "github.com/crowdmob/goamz/aws"
-    "github.com/crowdmob/goamz/cloudwatch"
+    "github.com/robsgreen/goamz/aws"
+    "github.com/robsgreen/goamz/cloudwatch"
 )
 
 func test_get_metric_statistics() {
@@ -79,8 +79,8 @@ import (
     "fmt"
     "time"
     "os"
-    "github.com/crowdmob/goamz/aws"
-    "github.com/crowdmob/goamz/cloudwatch"
+    "github.com/robsgreen/goamz/aws"
+    "github.com/robsgreen/goamz/cloudwatch"
 )
 
 func test_list_metrics() {

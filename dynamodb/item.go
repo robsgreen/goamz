@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	simplejson "github.com/bitly/go-simplejson"
-	"github.com/crowdmob/goamz/dynamodb/dynamizer"
 	"log"
 	"time"
+
+	simplejson "github.com/bitly/go-simplejson"
+	"github.com/robsgreen/goamz/dynamodb/dynamizer"
 )
 
 const maxNumberOfRetry = 4

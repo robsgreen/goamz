@@ -3,8 +3,9 @@ package sns
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/crowdmob/goamz/aws"
 	"net/http"
+
+	"github.com/robsgreen/goamz/aws"
 )
 
 type SNS struct {

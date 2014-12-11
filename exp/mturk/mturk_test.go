@@ -1,12 +1,13 @@
 package mturk_test
 
 import (
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/exp/mturk"
-	"github.com/crowdmob/goamz/testutil"
-	"gopkg.in/check.v1"
 	"net/url"
 	"testing"
+
+	"github.com/robsgreen/goamz/aws"
+	"github.com/robsgreen/goamz/exp/mturk"
+	"github.com/robsgreen/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 func Test(t *testing.T) {
